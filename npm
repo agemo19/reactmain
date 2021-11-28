@@ -1,0 +1,14 @@
+
+
+------------------- naujo repo --------------------
+git init
+git add --all                                                               paruos visus pakeitimus
+git commit -m "first commit"                                                zinute 
+git branch -M main                                                          nurodo kokia branch
+git remote add origin git@github.com:agemo19/djangoTestas1.git              nurodys koks repo
+git push -u origin main                                                     nusius pakeitimus i gh
+
+-------------------atnaujint repo -----------------------------
+git add --all                                                               paruos visus pakeitimus
+git commit -m "second commit"                                               zinute
+git push origin main                                                        nusius pakeitimus i gh
